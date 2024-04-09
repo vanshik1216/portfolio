@@ -1,0 +1,195 @@
+#bodytag {
+    background-color: lightblue;  
+}
+.container {
+    display: flex;
+    border: 1px solid rgb(120, 244, 255);
+    height: 1250px;
+    justify-content: center; 
+}
+#left_side {
+    background-color: rgb(2, 42, 89);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid rgb(2, 42, 89);
+    width: 250px;
+    height: 1300px; 
+}
+#right_side {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid white;
+    background-color: white;
+    width: 750px;
+    height: 1300px;
+}
+#image{
+    border: 1px solid;
+    margin-top: 50px;
+    border-radius: 200px;
+    margin-left: 50px;
+}
+#name{
+   color: white; 
+   letter-spacing: 1.5px;
+   margin-left: 65px;
+   font-size: 30px;
+}
+#work{
+   color: white; 
+   letter-spacing: 1.5px;
+   margin-left: 55px;
+   font-size: 18px;   
+}
+#botbord{
+    border-bottom: 2px solid gray; 
+    margin-top: 30px;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+.conedu{
+    margin-top: 100px;
+    font-size: 25px;
+    color: white;
+    margin-left: 15px;
+}
+#phone{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-left: 25px;
+}
+#mail{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+#ins{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+#loc{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.year{
+    color: lightblue;
+    font-size: 15px;
+}
+.stu{
+    color: white;
+    font-size: 18px;
+}
+.uni{
+    color: white;
+    font-size: 16px;
+}
+.list{
+    list-style: none;
+}
+.lang{ 
+    color: white;
+}
+#percenteng {
+    background: linear-gradient(90deg, lightblue 75%, black 30%);
+    width: 180px;
+    height: 6px;
+    margin-top: 10px;
+}
+#percenthin {
+    background: linear-gradient(90deg, lightblue 85%, black 15%);
+    width: 180px;
+    height: 6px;
+    margin-top: 10px;
+}
+#percentpun {
+    background: linear-gradient(90deg, lightblue 70%, black 15%);
+    width: 180px;
+    height: 6px;
+    margin-top: 10px; 
+}
+#profile{
+    margin-top: 60px;
+    margin-left: 50px;
+    color: rgb(2, 42, 89);
+    letter-spacing: 1px;
+}
+.para{
+    margin-left: 50px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+.cer{
+    margin-top: 50px;
+    color: rgb(12, 94, 245);
+    margin-left: 50px;
+    font-size: 20px;
+}
+.tex1{
+    color: black;
+    margin-left: 50px;
+    font-size: 17px;
+}
+.link{
+    text-decoration: none;
+    color:darkblue;
+}
+.pfs{
+    color: black;
+}
+#percenthtml{
+    background: linear-gradient(90deg, rgb(56, 123, 246) 85%, gray 15%);
+    width: 300px;
+    height: 7px;
+}
+#percentcss{
+    background: linear-gradient(85deg, rgb(56, 123, 246) 80%, gray 30%);
+    width: 300px;
+    height: 7px;
+}
+#percentms{
+    background: linear-gradient(95deg, rgb(56, 123, 246) 90%, gray 40%);
+    width: 300px;
+    height: 7px;
+}
+#percentpython{
+    background: linear-gradient(80deg, rgb(56, 123, 246) 75%, gray 35%);
+    width: 300px;
+    height: 7px;
+}
+#interest{
+  color: rgb(6, 45, 236);
+  margin-left: 10px; 
+}
+.inlineint{
+    display: inline;
+}
+.interestword{
+    margin-left: 5px;
+}
+#printb{ 
+    height: 30px;
+    width: 100px;
+    margin-left: 320px;
+    margin-top: 8px;
+    background-color:rgb(0, 153, 255);
+}
+#printic{
+    margin-right: 3px;
+}
+#printb:hover{
+    background-color: rgb(0, 255, 187);
+}
+@media print {
+    #printb{
+        display: none;
+    }
+}
